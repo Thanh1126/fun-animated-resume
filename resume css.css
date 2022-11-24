@@ -418,7 +418,7 @@ h2{
         position: fixed;
         top: 20px;
         z-index: 3;
-        animation: image 9s ease-out;
+        animation: image 10s ease-out;
         
 
         
@@ -431,9 +431,8 @@ h2{
         height: 120px;
         display: flex;
         left: 30%;
-        
         z-index: 3;
-        
+        animation: first 5s forwards;
     }
     .about{
         width: 110%;
@@ -474,7 +473,7 @@ h2{
 
     .mot{
     
-        animation: mot 3s 4.5s forwards;
+        animation: mot 3s 6.5s forwards;
     }
     
     @keyframes mot {
@@ -484,7 +483,7 @@ h2{
     }
     
     .hai{
-        animation: hai 3s 7s forwards;
+        animation: hai 3s 7.5s forwards;
     
     }
     
@@ -495,7 +494,7 @@ h2{
     
     .ba{
         
-        animation: ba 3s 9s forwards;
+        animation: ba 3s 8s forwards;
     }
     
     @keyframes ba {
