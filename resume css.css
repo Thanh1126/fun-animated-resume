@@ -186,8 +186,10 @@ h2{
 }
 
 @keyframes plane {
-    0%{right: -50%;}
-    35%{right: -50%;}
+    0%{right: -40%; opacity: 0;}
+    30%{right: -40%; opacity: 0;}
+    35%{right: -40%; opacity: 0.3;}
+    38%{right: -40%; opacity: 0.6;}
     64%{right: -10%; opacity: 1.0;}
     82%{right: -10%; opacity: 0.6;}
     100%{right: -10%; opacity: 0.6;}
@@ -434,7 +436,7 @@ h2{
         
     }
     .about{
-        width: 90%;
+        width: 100%;
     }
     
     .planeimg{ 
@@ -447,8 +449,8 @@ h2{
     @keyframes plane {
         0%{left: 0;}
         20%{left: 0;}
-        85%{left: 200px; opacity: 1.0;}
-        100%{left: 200px; opacity: 0.6;}
+        85%{left: 300px; opacity: 1.0;}
+        100%{left: 300px; opacity: 0.6;}
 
         
     }
