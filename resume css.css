@@ -286,7 +286,7 @@ h2{
     left: 50px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.9em;
-    animation: speech 32s forwards;
+    animation: speech 30.5s forwards;
 
 }
 
@@ -435,7 +435,7 @@ h2{
         animation: first 5s forwards;
     }
     .about{
-        width: 110%;
+        width: 95%;
     }
     
     .planeimg{ 
@@ -448,8 +448,8 @@ h2{
     @keyframes plane {
         0%{left: 0;}
         20%{left: 0;}
-        85%{left: 85%; opacity: 1.0;}
-        100%{left: 85%; opacity: 0.6;}
+        85%{left: 75%; opacity: 1.0;}
+        100%{left: 75%; opacity: 0.6;}
 
         
     }
@@ -473,7 +473,7 @@ h2{
 
     .mot{
     
-        animation: mot 3s 6.5s forwards;
+        animation: mot 3s 5.5s forwards;
     }
     
     @keyframes mot {
@@ -483,7 +483,7 @@ h2{
     }
     
     .hai{
-        animation: hai 3s 7.5s forwards;
+        animation: hai 3s 7s forwards;
     
     }
     
@@ -494,7 +494,7 @@ h2{
     
     .ba{
         
-        animation: ba 3s 8s forwards;
+        animation: ba 3s 8.5s forwards;
     }
     
     @keyframes ba {
@@ -543,7 +543,7 @@ h2{
     position: absolute;
     text-align: center;
     top: 40%;
-    left: 40%;
+    left: 35%;
     animation: hi 20.5s forwards;
     
 }
