@@ -418,7 +418,7 @@ h2{
         position: fixed;
         top: 20px;
         z-index: 3;
-        animation: image 8.5s ease-out;
+        animation: image 9s ease-out;
         
 
         
@@ -436,7 +436,7 @@ h2{
         
     }
     .about{
-        width: 100%;
+        width: 110%;
     }
     
     .planeimg{ 
@@ -449,8 +449,8 @@ h2{
     @keyframes plane {
         0%{left: 0;}
         20%{left: 0;}
-        85%{left: 300px; opacity: 1.0;}
-        100%{left: 300px; opacity: 0.6;}
+        85%{left: 85%; opacity: 1.0;}
+        100%{left: 85%; opacity: 0.6;}
 
         
     }
@@ -474,7 +474,7 @@ h2{
 
     .mot{
     
-        animation: mot 3s 4s forwards;
+        animation: mot 3s 4.5s forwards;
     }
     
     @keyframes mot {
@@ -484,7 +484,7 @@ h2{
     }
     
     .hai{
-        animation: hai 3s 5.5s forwards;
+        animation: hai 3s 7s forwards;
     
     }
     
